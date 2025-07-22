@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.left {
+    color: #ffffff;
+    background-color: #1992d4;
+}
+
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.middle-section ul {
+    display: flex;
+    gap: 10px;
+}   
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cards ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
